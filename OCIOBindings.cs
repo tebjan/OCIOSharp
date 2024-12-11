@@ -46,6 +46,18 @@ public class OCIOBindings : ILibrary
         }
 
         module.Headers.Add(headerFile);
+
+        var libDir = Path.Combine(installDir, "bin");
+        var libFile = Path.Combine(libDir, "OpenColorIO_2_4.dll");
+
+        // check if the library file exists
+        if (!File.Exists(libFile))
+        {
+            throw new FileNotFoundException($"The library file {libFile} does not exist.");
+        }
+
+        module.LibraryDirs.Add(libDir);
+        module.Libraries.Add("OpenColorIO_2_4.dll");
     }
 
     public void Preprocess(Driver driver, ASTContext ctx) { }

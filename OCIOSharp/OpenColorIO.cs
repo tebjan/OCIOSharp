@@ -29,7 +29,7 @@ namespace OpenColorIO
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0Exception@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0Exception@OpenColorIO_v2_4@@QEAA@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0Exception@OpenColorIO_v2_4@@QEAA@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string _0);
             }
 
@@ -253,10 +253,10 @@ namespace OpenColorIO
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExceptionMissingFile@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExceptionMissingFile@OpenColorIO_v2_4@@QEAA@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ExceptionMissingFile@OpenColorIO_v2_4@@QEAA@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExceptionMissingFile@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ExceptionMissingFile@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
             }
 
@@ -471,374 +471,374 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1Config@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1Config@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setVersion@Config@OpenColorIO_v2_4@@QEAAXII@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setVersion@Config@OpenColorIO_v2_4@@QEAAXII@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetVersion(__IntPtr __instance, uint major, uint minor);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?upgradeToLatestVersion@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?upgradeToLatestVersion@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void UpgradeToLatestVersion(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?validate@Config@OpenColorIO_v2_4@@QEBAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?validate@Config@OpenColorIO_v2_4@@QEBAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Validate(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addEnvironmentVar@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addEnvironmentVar@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddEnvironmentVar(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string defaultValue);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEnvironmentVarNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEnvironmentVarNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEnvironmentVarNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEnvironmentVarDefault@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEnvironmentVarDefault@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEnvironmentVarDefault(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearEnvironmentVars@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearEnvironmentVars@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearEnvironmentVars(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?loadEnvironment@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?loadEnvironment@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void LoadEnvironment(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSearchPath@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSearchPath@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSearchPath(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearSearchPaths@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearSearchPaths@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearSearchPaths(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addSearchPath@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addSearchPath@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddSearchPath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string path);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumColorSpaces@Config@OpenColorIO_v2_4@@QEBAHW4SearchReferenceSpaceType@2@W4ColorSpaceVisibility@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumColorSpaces@Config@OpenColorIO_v2_4@@QEBAHW4SearchReferenceSpaceType@2@W4ColorSpaceVisibility@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumColorSpaces(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.SearchReferenceSpaceType searchReferenceType, global::OpenColorIO.OpenColorIO_v2_4.ColorSpaceVisibility visibility);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDW4SearchReferenceSpaceType@2@W4ColorSpaceVisibility@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDW4SearchReferenceSpaceType@2@W4ColorSpaceVisibility@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpaceNameByIndex(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.SearchReferenceSpaceType searchReferenceType, global::OpenColorIO.OpenColorIO_v2_4.ColorSpaceVisibility visibility, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumColorSpaces@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumColorSpaces@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumColorSpaces(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpaceNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getIndexForColorSpace@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getIndexForColorSpace@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetIndexForColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCanonicalName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCanonicalName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCanonicalName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeColorSpace@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeColorSpace@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isColorSpaceUsed@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isColorSpaceUsed@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsColorSpaceUsed(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearColorSpaces@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearColorSpaces@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearColorSpaces(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isInactiveColorSpace@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isInactiveColorSpace@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsInactiveColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorspace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isColorSpaceLinear@Config@OpenColorIO_v2_4@@QEBA_NPEBDW4ReferenceSpaceType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isColorSpaceLinear@Config@OpenColorIO_v2_4@@QEBA_NPEBDW4ReferenceSpaceType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsColorSpaceLinear(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace, global::OpenColorIO.OpenColorIO_v2_4.ReferenceSpaceType referenceSpaceType);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setRole@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setRole@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetRole(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string role, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpaceName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasRole@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasRole@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasRole(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string role);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getRoleName@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getRoleName@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetRoleName(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getRoleColorSpace@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getRoleColorSpace@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetRoleColorSpace(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getRoleColorSpace@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getRoleColorSpace@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetRoleColorSpace_1(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string roleName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addSharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD00000@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addSharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD00000@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddSharedView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string viewTransformName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpaceName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeSharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeSharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveSharedView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplay@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplay@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplay(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDefaultView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDefaultView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDefaultView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDefaultView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDefaultView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDefaultView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorspaceName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumViews(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumViews(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorspaceName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0H@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0H@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorspaceName, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayViewTransformName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayViewColorSpaceName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayViewColorSpaceName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayViewColorSpaceName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayViewLooks@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayViewLooks@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayViewLooks(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayViewRule@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayViewRule@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayViewRule(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayViewDescription@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayViewDescription@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayViewDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD000@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD000@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpaceName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD000000@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD000000@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string viewTransformName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpaceName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addDisplaySharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addDisplaySharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddDisplaySharedView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string sharedView);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearDisplays@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearDisplays@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearDisplays(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addVirtualDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD00000@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addVirtualDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD00000@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddVirtualDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string viewTransformName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpaceName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addVirtualDisplaySharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addVirtualDisplaySharedView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddVirtualDisplaySharedView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string sharedView);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayNumViews@Config@OpenColorIO_v2_4@@QEBAHW4ViewType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayNumViews@Config@OpenColorIO_v2_4@@QEBAHW4ViewType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetVirtualDisplayNumViews(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.ViewType type);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayView@Config@OpenColorIO_v2_4@@QEBAPEBDW4ViewType@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayView@Config@OpenColorIO_v2_4@@QEBAPEBDW4ViewType@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayView(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.ViewType type, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayViewTransformName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayViewColorSpaceName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayViewColorSpaceName@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayViewColorSpaceName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayViewLooks@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayViewLooks@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayViewLooks(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayViewRule@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayViewRule@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayViewRule(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVirtualDisplayViewDescription@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVirtualDisplayViewDescription@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVirtualDisplayViewDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeVirtualDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeVirtualDisplayView@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveVirtualDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearVirtualDisplay@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearVirtualDisplay@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearVirtualDisplay(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?instantiateDisplayFromMonitorName@Config@OpenColorIO_v2_4@@QEAAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?instantiateDisplayFromMonitorName@Config@OpenColorIO_v2_4@@QEAAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int InstantiateDisplayFromMonitorName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string monitorName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?instantiateDisplayFromICCProfile@Config@OpenColorIO_v2_4@@QEAAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?instantiateDisplayFromICCProfile@Config@OpenColorIO_v2_4@@QEAAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int InstantiateDisplayFromICCProfile(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ICCProfileFilepath);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayAll@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayAll@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplayAll(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplayAllByName@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplayAllByName@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetDisplayAllByName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isDisplayTemporary@Config@OpenColorIO_v2_4@@QEBA_NH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isDisplayTemporary@Config@OpenColorIO_v2_4@@QEBA_NH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsDisplayTemporary(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHW4ViewType@2@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumViews@Config@OpenColorIO_v2_4@@QEBAHW4ViewType@2@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumViews_1(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.ViewType type, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDW4ViewType@2@PEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getView@Config@OpenColorIO_v2_4@@QEBAPEBDW4ViewType@2@PEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetView_1(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.ViewType type, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDefaultLumaCoefs@Config@OpenColorIO_v2_4@@QEBAXPEAN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDefaultLumaCoefs@Config@OpenColorIO_v2_4@@QEBAXPEAN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void GetDefaultLumaCoefs(__IntPtr __instance, double* rgb);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDefaultLumaCoefs@Config@OpenColorIO_v2_4@@QEAAXPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDefaultLumaCoefs@Config@OpenColorIO_v2_4@@QEAAXPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDefaultLumaCoefs(__IntPtr __instance, double* rgb);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLookNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLookNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetLookNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearLooks@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearLooks@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearLooks(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getViewTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getViewTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetViewTransformNameByIndex(__IntPtr __instance, int i);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearViewTransforms@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearViewTransforms@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearViewTransforms(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumNamedTransforms@Config@OpenColorIO_v2_4@@QEBAHW4NamedTransformVisibility@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumNamedTransforms@Config@OpenColorIO_v2_4@@QEBAHW4NamedTransformVisibility@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumNamedTransforms(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.NamedTransformVisibility visibility);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNamedTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDW4NamedTransformVisibility@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNamedTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDW4NamedTransformVisibility@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetNamedTransformNameByIndex(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.NamedTransformVisibility visibility, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumNamedTransforms@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumNamedTransforms@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumNamedTransforms(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNamedTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNamedTransformNameByIndex@Config@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetNamedTransformNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getIndexForNamedTransform@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getIndexForNamedTransform@Config@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetIndexForNamedTransform(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearNamedTransforms@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearNamedTransforms@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearNamedTransforms(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceFromFilepath@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceFromFilepath@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpaceFromFilepath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string filePath);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceFromFilepath@Config@OpenColorIO_v2_4@@QEBAPEBDPEBDAEA_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceFromFilepath@Config@OpenColorIO_v2_4@@QEBAPEBDPEBDAEA_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpaceFromFilepath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string filePath, ulong* ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?filepathOnlyMatchesDefaultRule@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?filepathOnlyMatchesDefaultRule@Config@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool FilepathOnlyMatchesDefaultRule(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string filePath);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?parseColorSpaceFromString@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?parseColorSpaceFromString@Config@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ParseColorSpaceFromString(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string str);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearProcessorCache@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearProcessorCache@Config@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearProcessorCache(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getMajorVersion@Config@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getMajorVersion@Config@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern uint GetMajorVersion(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setMajorVersion@Config@OpenColorIO_v2_4@@QEAAXI@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setMajorVersion@Config@OpenColorIO_v2_4@@QEAAXI@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetMajorVersion(__IntPtr __instance, uint major);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getMinorVersion@Config@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getMinorVersion@Config@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern uint GetMinorVersion(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setMinorVersion@Config@OpenColorIO_v2_4@@QEAAXI@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setMinorVersion@Config@OpenColorIO_v2_4@@QEAAXI@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetMinorVersion(__IntPtr __instance, uint minor);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setName@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setName@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFamilySeparator@Config@OpenColorIO_v2_4@@QEBADXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFamilySeparator@Config@OpenColorIO_v2_4@@QEBADXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern sbyte GetFamilySeparator(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setFamilySeparator@Config@OpenColorIO_v2_4@@QEAAXD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setFamilySeparator@Config@OpenColorIO_v2_4@@QEAAXD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetFamilySeparator(__IntPtr __instance, sbyte separator);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetDefaultFamilySeparator@Config@OpenColorIO_v2_4@@SADXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetDefaultFamilySeparator@Config@OpenColorIO_v2_4@@SADXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern sbyte GetDefaultFamilySeparator();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDescription@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDescription@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDescription(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDescription@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDescription@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCacheID@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCacheID@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCacheID(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumEnvironmentVars@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumEnvironmentVars@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumEnvironmentVars(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEnvironmentMode@Config@OpenColorIO_v2_4@@QEBA?AW4EnvironmentMode@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEnvironmentMode@Config@OpenColorIO_v2_4@@QEBA?AW4EnvironmentMode@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode GetEnvironmentMode(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setEnvironmentMode@Config@OpenColorIO_v2_4@@QEAAXW4EnvironmentMode@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setEnvironmentMode@Config@OpenColorIO_v2_4@@QEAAXW4EnvironmentMode@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetEnvironmentMode(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode mode);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSearchPath@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSearchPath@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSearchPath(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSearchPath@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSearchPath@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSearchPath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string path);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumSearchPaths@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumSearchPaths@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumSearchPaths(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getWorkingDir@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getWorkingDir@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetWorkingDir(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setWorkingDir@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setWorkingDir@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetWorkingDir(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string dirname);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getInactiveColorSpaces@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getInactiveColorSpaces@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetInactiveColorSpaces(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setInactiveColorSpaces@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setInactiveColorSpaces@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetInactiveColorSpaces(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string inactiveColorSpaces);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumRoles@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumRoles@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumRoles(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDefaultDisplay@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDefaultDisplay@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDefaultDisplay(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumDisplays@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumDisplays@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumDisplays(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getActiveDisplays@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getActiveDisplays@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetActiveDisplays(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setActiveDisplays@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setActiveDisplays@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetActiveDisplays(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string displays);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getActiveViews@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getActiveViews@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetActiveViews(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setActiveViews@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setActiveViews@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetActiveViews(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string views);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumDisplaysAll@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumDisplaysAll@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumDisplaysAll(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumLooks@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumLooks@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumLooks(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumViewTransforms@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumViewTransforms@Config@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumViewTransforms(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDefaultViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDefaultViewTransformName@Config@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDefaultViewTransformName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDefaultViewTransformName@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDefaultViewTransformName@Config@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDefaultViewTransformName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string defaultName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isStrictParsingEnabled@Config@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isStrictParsingEnabled@Config@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsStrictParsingEnabled(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setStrictParsingEnabled@Config@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setStrictParsingEnabled@Config@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetStrictParsingEnabled(__IntPtr __instance, bool enabled);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getProcessorCacheFlags@Config@OpenColorIO_v2_4@@QEBA?AW4ProcessorCacheFlags@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getProcessorCacheFlags@Config@OpenColorIO_v2_4@@QEBA?AW4ProcessorCacheFlags@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.ProcessorCacheFlags GetProcessorCacheFlags(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setProcessorCacheFlags@Config@OpenColorIO_v2_4@@QEBAXW4ProcessorCacheFlags@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setProcessorCacheFlags@Config@OpenColorIO_v2_4@@QEBAXW4ProcessorCacheFlags@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetProcessorCacheFlags(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.ProcessorCacheFlags flags);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isArchivable@Config@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isArchivable@Config@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsArchivable(__IntPtr __instance);
             }
@@ -2086,73 +2086,73 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_FileRules;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getIndexForRule@FileRules@OpenColorIO_v2_4@@QEBA_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getIndexForRule@FileRules@OpenColorIO_v2_4@@QEBA_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetIndexForRule(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getPattern@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getPattern@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetPattern(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setPattern@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setPattern@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetPattern(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string pattern);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getExtension@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getExtension@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetExtension(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setExtension@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setExtension@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetExtension(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string extension);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getRegex@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getRegex@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetRegex(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setRegex@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setRegex@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetRegex(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string regex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpace@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpace@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpace(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setColorSpace@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setColorSpace@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetColorSpace(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumCustomKeys@FileRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumCustomKeys@FileRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumCustomKeys(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCustomKeyName@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCustomKeyName@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCustomKeyName(__IntPtr __instance, ulong ruleIndex, ulong key);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCustomKeyValue@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCustomKeyValue@FileRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCustomKeyValue(__IntPtr __instance, ulong ruleIndex, ulong key);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setCustomKey@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD1@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setCustomKey@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD1@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetCustomKey(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string key, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string value);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?insertRule@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD111@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?insertRule@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD111@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void InsertRule(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string pattern, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string extension);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?insertRule@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD11@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?insertRule@FileRules@OpenColorIO_v2_4@@QEAAX_KPEBD11@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void InsertRule(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string regex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?insertPathSearchRule@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?insertPathSearchRule@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void InsertPathSearchRule(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDefaultRuleColorSpace@FileRules@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDefaultRuleColorSpace@FileRules@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDefaultRuleColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeRule@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeRule@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveRule(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?increaseRulePriority@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?increaseRulePriority@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void IncreaseRulePriority(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?decreaseRulePriority@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?decreaseRulePriority@FileRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void DecreaseRulePriority(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumEntries@FileRules@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumEntries@FileRules@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumEntries(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isDefault@FileRules@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isDefault@FileRules@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsDefault(__IntPtr __instance);
             }
@@ -2411,13 +2411,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -2432,13 +2432,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._FilePathSearchRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._FilePathSearchRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._FilePathSearchRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._FilePathSearchRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -2574,55 +2574,55 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_ViewingRules;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getIndexForRule@ViewingRules@OpenColorIO_v2_4@@QEBA_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getIndexForRule@ViewingRules@OpenColorIO_v2_4@@QEBA_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetIndexForRule(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumColorSpaces@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumColorSpaces@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumColorSpaces(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpace@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpace@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpace(__IntPtr __instance, ulong ruleIndex, ulong colorSpaceIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addColorSpace@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addColorSpace@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddColorSpace(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string colorSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeColorSpace@ViewingRules@OpenColorIO_v2_4@@QEAAX_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeColorSpace@ViewingRules@OpenColorIO_v2_4@@QEAAX_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveColorSpace(__IntPtr __instance, ulong ruleIndex, ulong colorSpaceIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumEncodings@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumEncodings@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumEncodings(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEncoding@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEncoding@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEncoding(__IntPtr __instance, ulong ruleIndex, ulong encodingIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addEncoding@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addEncoding@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddEncoding(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string encoding);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeEncoding@ViewingRules@OpenColorIO_v2_4@@QEAAX_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeEncoding@ViewingRules@OpenColorIO_v2_4@@QEAAX_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveEncoding(__IntPtr __instance, ulong ruleIndex, ulong encodingIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumCustomKeys@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumCustomKeys@ViewingRules@OpenColorIO_v2_4@@QEBA_K_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumCustomKeys(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCustomKeyName@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCustomKeyName@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCustomKeyName(__IntPtr __instance, ulong ruleIndex, ulong keyIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCustomKeyValue@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCustomKeyValue@ViewingRules@OpenColorIO_v2_4@@QEBAPEBD_K0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCustomKeyValue(__IntPtr __instance, ulong ruleIndex, ulong keyIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setCustomKey@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD1@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setCustomKey@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD1@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetCustomKey(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string key, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string value);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?insertRule@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?insertRule@ViewingRules@OpenColorIO_v2_4@@QEAAX_KPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void InsertRule(__IntPtr __instance, ulong ruleIndex, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string ruleName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeRule@ViewingRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeRule@ViewingRules@OpenColorIO_v2_4@@QEAAX_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveRule(__IntPtr __instance, ulong ruleIndex);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumEntries@ViewingRules@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumEntries@ViewingRules@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumEntries(__IntPtr __instance);
             }
 
@@ -2957,106 +2957,106 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1ColorSpace@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1ColorSpace@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getAlias@ColorSpace@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getAlias@ColorSpace@OpenColorIO_v2_4@@QEBAPEBD_K@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetAlias(__IntPtr __instance, ulong idx);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasAlias@ColorSpace@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasAlias@ColorSpace@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasAlias(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string alias);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addAlias@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addAlias@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddAlias(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string alias);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeAlias@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeAlias@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveAlias(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string alias);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearAliases@ColorSpace@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearAliases@ColorSpace@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearAliases(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasCategory@ColorSpace@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasCategory@ColorSpace@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addCategory@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addCategory@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeCategory@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeCategory@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCategory@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCategory@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCategory(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearCategories@ColorSpace@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearCategories@ColorSpace@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearCategories(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getAllocationVars@ColorSpace@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getAllocationVars@ColorSpace@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void GetAllocationVars(__IntPtr __instance, float* vars);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setAllocationVars@ColorSpace@OpenColorIO_v2_4@@QEAAXHPEBM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setAllocationVars@ColorSpace@OpenColorIO_v2_4@@QEAAXHPEBM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetAllocationVars(__IntPtr __instance, int numvars, float* vars);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setName@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setName@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumAliases@ColorSpace@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumAliases@ColorSpace@OpenColorIO_v2_4@@QEBA_KXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern ulong GetNumAliases(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFamily@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFamily@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFamily(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setFamily@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setFamily@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetFamily(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string family);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEqualityGroup@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEqualityGroup@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEqualityGroup(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setEqualityGroup@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setEqualityGroup@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetEqualityGroup(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string equalityGroup);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDescription@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDescription@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDescription(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDescription@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDescription@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getBitDepth@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getBitDepth@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.BitDepth GetBitDepth(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setBitDepth@ColorSpace@OpenColorIO_v2_4@@QEAAXW4BitDepth@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setBitDepth@ColorSpace@OpenColorIO_v2_4@@QEAAXW4BitDepth@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetBitDepth(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getReferenceSpaceType@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4ReferenceSpaceType@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getReferenceSpaceType@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4ReferenceSpaceType@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.ReferenceSpaceType GetReferenceSpaceType(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumCategories@ColorSpace@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumCategories@ColorSpace@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumCategories(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEncoding@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEncoding@ColorSpace@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEncoding(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setEncoding@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setEncoding@ColorSpace@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetEncoding(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string encoding);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isData@ColorSpace@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isData@ColorSpace@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsData(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setIsData@ColorSpace@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setIsData@ColorSpace@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetIsData(__IntPtr __instance, bool isData);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getAllocation@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4Allocation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getAllocation@ColorSpace@OpenColorIO_v2_4@@QEBA?AW4Allocation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.Allocation GetAllocation(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setAllocation@ColorSpace@OpenColorIO_v2_4@@QEAAXW4Allocation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setAllocation@ColorSpace@OpenColorIO_v2_4@@QEAAXW4Allocation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetAllocation(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.Allocation allocation);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getAllocationNumVars@ColorSpace@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getAllocationNumVars@ColorSpace@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetAllocationNumVars(__IntPtr __instance);
             }
 
@@ -3465,34 +3465,34 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1ColorSpaceSet@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1ColorSpaceSet@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NAEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NAEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr __instance, __IntPtr css);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NAEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NAEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr __instance, __IntPtr css);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceNameByIndex@ColorSpaceSet@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceNameByIndex@ColorSpaceSet@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetColorSpaceNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getColorSpaceIndex@ColorSpaceSet@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getColorSpaceIndex@ColorSpaceSet@OpenColorIO_v2_4@@QEBAHPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetColorSpaceIndex(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasColorSpace@ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasColorSpace@ColorSpaceSet@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeColorSpace@ColorSpaceSet@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeColorSpace@ColorSpaceSet@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveColorSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearColorSpaces@ColorSpaceSet@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearColorSpaces@ColorSpaceSet@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearColorSpaces(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumColorSpaces@ColorSpaceSet@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumColorSpaces@ColorSpaceSet@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumColorSpaces(__IntPtr __instance);
             }
 
@@ -3682,25 +3682,25 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1Look@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1Look@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setName@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setName@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getProcessSpace@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getProcessSpace@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetProcessSpace(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setProcessSpace@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setProcessSpace@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetProcessSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string processSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDescription@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDescription@Look@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDescription(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDescription@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDescription@Look@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
             }
 
@@ -3843,7 +3843,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_NamedTransform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0NamedTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0NamedTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -4391,47 +4391,47 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1ViewTransform@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1ViewTransform@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasCategory@ViewTransform@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasCategory@ViewTransform@OpenColorIO_v2_4@@QEBA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addCategory@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addCategory@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?removeCategory@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?removeCategory@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void RemoveCategory(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string category);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCategory@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCategory@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCategory(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearCategories@ViewTransform@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearCategories@ViewTransform@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearCategories(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getName@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getName@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setName@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setName@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFamily@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFamily@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFamily(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setFamily@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setFamily@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetFamily(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string family);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDescription@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDescription@ViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDescription(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDescription@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDescription@ViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDescription(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string description);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumCategories@ViewTransform@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumCategories@ViewTransform@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumCategories(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getReferenceSpaceType@ViewTransform@OpenColorIO_v2_4@@QEBA?AW4ReferenceSpaceType@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getReferenceSpaceType@ViewTransform@OpenColorIO_v2_4@@QEBA?AW4ReferenceSpaceType@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.ReferenceSpaceType GetReferenceSpaceType(__IntPtr __instance);
             }
 
@@ -4627,34 +4627,34 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1Processor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1Processor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getTransformFormatMetadata@Processor@OpenColorIO_v2_4@@QEBAAEBVFormatMetadata@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getTransformFormatMetadata@Processor@OpenColorIO_v2_4@@QEBAAEBVFormatMetadata@2@H@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetTransformFormatMetadata(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasDynamicProperty@Processor@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasDynamicProperty@Processor@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasDynamicProperty(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.DynamicPropertyType type);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isNoOp@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isNoOp@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsNoOp(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasChannelCrosstalk@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasChannelCrosstalk@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasChannelCrosstalk(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCacheID@Processor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCacheID@Processor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCacheID(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFormatMetadata@Processor@OpenColorIO_v2_4@@QEBAAEBVFormatMetadata@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFormatMetadata@Processor@OpenColorIO_v2_4@@QEBAAEBVFormatMetadata@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatMetadata(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumTransforms@Processor@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumTransforms@Processor@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumTransforms(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isDynamic@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isDynamic@Processor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsDynamic(__IntPtr __instance);
             }
@@ -4843,47 +4843,47 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1CPUProcessor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1CPUProcessor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasDynamicProperty@CPUProcessor@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasDynamicProperty@CPUProcessor@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasDynamicProperty(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.DynamicPropertyType type);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?apply@CPUProcessor@OpenColorIO_v2_4@@QEBAXAEBVImageDesc@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?apply@CPUProcessor@OpenColorIO_v2_4@@QEBAXAEBVImageDesc@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Apply(__IntPtr __instance, __IntPtr imgDesc);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?apply@CPUProcessor@OpenColorIO_v2_4@@QEBAXAEBVImageDesc@2@AEAV32@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?apply@CPUProcessor@OpenColorIO_v2_4@@QEBAXAEBVImageDesc@2@AEAV32@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Apply(__IntPtr __instance, __IntPtr srcImgDesc, __IntPtr dstImgDesc);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?applyRGB@CPUProcessor@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?applyRGB@CPUProcessor@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ApplyRGB(__IntPtr __instance, float* pixel);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?applyRGBA@CPUProcessor@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?applyRGBA@CPUProcessor@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ApplyRGBA(__IntPtr __instance, float* pixel);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isNoOp@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isNoOp@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsNoOp(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isIdentity@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isIdentity@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsIdentity(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasChannelCrosstalk@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasChannelCrosstalk@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasChannelCrosstalk(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCacheID@CPUProcessor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCacheID@CPUProcessor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCacheID(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getInputBitDepth@CPUProcessor@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getInputBitDepth@CPUProcessor@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.BitDepth GetInputBitDepth(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getOutputBitDepth@CPUProcessor@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getOutputBitDepth@CPUProcessor@OpenColorIO_v2_4@@QEBA?AW4BitDepth@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.BitDepth GetOutputBitDepth(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isDynamic@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isDynamic@CPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsDynamic(__IntPtr __instance);
             }
@@ -5108,18 +5108,18 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1GPUProcessor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1GPUProcessor@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?isNoOp@GPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?isNoOp@GPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsNoOp(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasChannelCrosstalk@GPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasChannelCrosstalk@GPUProcessor@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasChannelCrosstalk(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCacheID@GPUProcessor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCacheID@GPUProcessor@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCacheID(__IntPtr __instance);
             }
 
@@ -5246,25 +5246,25 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1ProcessorMetadata@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1ProcessorMetadata@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFile@ProcessorMetadata@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFile@ProcessorMetadata@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFile(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLook@ProcessorMetadata@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLook@ProcessorMetadata@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetLook(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addFile@ProcessorMetadata@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addFile@ProcessorMetadata@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddFile(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string fname);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addLook@ProcessorMetadata@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addLook@ProcessorMetadata@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddLook(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string look);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumFiles@ProcessorMetadata@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumFiles@ProcessorMetadata@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumFiles(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumLooks@ProcessorMetadata@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumLooks@ProcessorMetadata@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumLooks(__IntPtr __instance);
             }
 
@@ -5405,70 +5405,70 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1Baker@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1Baker@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDisplayView@Baker@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDisplayView@Baker@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDisplayView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFormatNameByIndex@Baker@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFormatNameByIndex@Baker@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatNameByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFormatExtensionByIndex@Baker@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFormatExtensionByIndex@Baker@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatExtensionByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFormat@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFormat@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormat(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setFormat@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setFormat@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetFormat(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string formatName);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFormatMetadata@Baker@OpenColorIO_v2_4@@QEAAAEAVFormatMetadata@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFormatMetadata@Baker@OpenColorIO_v2_4@@QEAAAEAVFormatMetadata@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatMetadata(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getInputSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getInputSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetInputSpace(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setInputSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setInputSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetInputSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string inputSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getShaperSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getShaperSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetShaperSpace(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setShaperSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setShaperSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetShaperSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string shaperSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLooks@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLooks@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetLooks(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setLooks@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setLooks@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetLooks(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getTargetSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getTargetSpace@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetTargetSpace(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setTargetSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setTargetSpace@Baker@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetTargetSpace(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string targetSpace);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplay@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplay@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplay(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getView@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getView@Baker@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetView(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getShaperSize@Baker@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getShaperSize@Baker@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetShaperSize(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setShaperSize@Baker@OpenColorIO_v2_4@@QEAAXH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setShaperSize@Baker@OpenColorIO_v2_4@@QEAAXH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetShaperSize(__IntPtr __instance, int shapersize);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCubeSize@Baker@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCubeSize@Baker@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetCubeSize(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setCubeSize@Baker@OpenColorIO_v2_4@@QEAAXH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setCubeSize@Baker@OpenColorIO_v2_4@@QEAAXH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetCubeSize(__IntPtr __instance, int cubesize);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumFormats@Baker@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumFormats@Baker@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumFormats();
             }
 
@@ -5738,7 +5738,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_ImageDesc;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ImageDesc@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ImageDesc@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -6147,28 +6147,28 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_ImageDesc;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJJ@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJJ@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, __IntPtr data, int width, int height, int numChannels);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJJW4BitDepth@1@_J22@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJJW4BitDepth@1@_J22@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, __IntPtr data, int width, int height, int numChannels, global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth, long chanStrideBytes, long xStrideBytes, long yStrideBytes);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJW4ChannelOrdering@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJW4ChannelOrdering@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor_1(__IntPtr __instance, __IntPtr data, int width, int height, global::OpenColorIO.OpenColorIO_v2_4.ChannelOrdering chanOrder);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJW4ChannelOrdering@1@W4BitDepth@1@_J33@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PackedImageDesc@OpenColorIO_v2_4@@QEAA@PEAXJJW4ChannelOrdering@1@W4BitDepth@1@_J33@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor_1(__IntPtr __instance, __IntPtr data, int width, int height, global::OpenColorIO.OpenColorIO_v2_4.ChannelOrdering chanOrder, global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth, long chanStrideBytes, long xStrideBytes, long yStrideBytes);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getChannelOrder@PackedImageDesc@OpenColorIO_v2_4@@QEBA?AW4ChannelOrdering@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getChannelOrder@PackedImageDesc@OpenColorIO_v2_4@@QEBA?AW4ChannelOrdering@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.ChannelOrdering GetChannelOrder(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getData@PackedImageDesc@OpenColorIO_v2_4@@QEBAPEAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getData@PackedImageDesc@OpenColorIO_v2_4@@QEBAPEAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetData(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumChannels@PackedImageDesc@OpenColorIO_v2_4@@QEBAJXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumChannels@PackedImageDesc@OpenColorIO_v2_4@@QEBAJXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumChannels(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getChanStrideBytes@PackedImageDesc@OpenColorIO_v2_4@@QEBA_JXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getChanStrideBytes@PackedImageDesc@OpenColorIO_v2_4@@QEBA_JXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern long GetChanStrideBytes(__IntPtr __instance);
             }
 
@@ -6676,10 +6676,10 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_ImageDesc;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PlanarImageDesc@OpenColorIO_v2_4@@QEAA@PEAX000JJ@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PlanarImageDesc@OpenColorIO_v2_4@@QEAA@PEAX000JJ@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, __IntPtr rData, __IntPtr gData, __IntPtr bData, __IntPtr aData, int width, int height);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0PlanarImageDesc@OpenColorIO_v2_4@@QEAA@PEAX000JJW4BitDepth@1@_J2@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0PlanarImageDesc@OpenColorIO_v2_4@@QEAA@PEAX000JJW4BitDepth@1@_J2@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, __IntPtr rData, __IntPtr gData, __IntPtr bData, __IntPtr aData, int width, int height, global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth, long xStrideBytes, long yStrideBytes);
             }
 
@@ -7149,50 +7149,50 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_GpuShaderCreator;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GpuShaderCreator@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GpuShaderCreator@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?hasDynamicProperty@GpuShaderCreator@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?hasDynamicProperty@GpuShaderCreator@OpenColorIO_v2_4@@QEBA_NW4DynamicPropertyType@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool HasDynamicProperty(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.DynamicPropertyType type);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getUniqueID@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getUniqueID@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetUniqueID(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setUniqueID@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setUniqueID@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetUniqueID(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string uid);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLanguage@GpuShaderCreator@OpenColorIO_v2_4@@QEBA?AW4GpuLanguage@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLanguage@GpuShaderCreator@OpenColorIO_v2_4@@QEBA?AW4GpuLanguage@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.GpuLanguage GetLanguage(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setLanguage@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXW4GpuLanguage@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setLanguage@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXW4GpuLanguage@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetLanguage(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.GpuLanguage lang);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getFunctionName@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getFunctionName@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFunctionName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setFunctionName@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setFunctionName@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetFunctionName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getPixelName@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getPixelName@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetPixelName(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setPixelName@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setPixelName@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetPixelName(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getResourcePrefix@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getResourcePrefix@GpuShaderCreator@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetResourcePrefix(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setResourcePrefix@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setResourcePrefix@GpuShaderCreator@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetResourcePrefix(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string prefix);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNextResourceIndex@GpuShaderCreator@OpenColorIO_v2_4@@QEAAIXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNextResourceIndex@GpuShaderCreator@OpenColorIO_v2_4@@QEAAIXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern uint GetNextResourceIndex(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumDynamicProperties@GpuShaderCreator@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumDynamicProperties@GpuShaderCreator@OpenColorIO_v2_4@@QEBAIXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern uint GetNumDynamicProperties(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getImpl@GpuShaderCreator@OpenColorIO_v2_4@@IEAAPEAVImpl@12@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getImpl@GpuShaderCreator@OpenColorIO_v2_4@@IEAAPEAVImpl@12@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetImpl(__IntPtr __instance);
             }
 
@@ -7899,10 +7899,10 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_GpuShaderCreator;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GpuShaderDesc@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GpuShaderDesc@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getShaderText@GpuShaderDesc@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getShaderText@GpuShaderDesc@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetShaderText(__IntPtr __instance);
             }
 
@@ -8846,67 +8846,67 @@ namespace OpenColorIO
             {
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??1Context@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??1Context@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void dtor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSearchPath@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSearchPath@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSearchPath(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearSearchPaths@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearSearchPaths@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearSearchPaths(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?addSearchPath@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?addSearchPath@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void AddSearchPath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string path);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setStringVar@Context@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setStringVar@Context@OpenColorIO_v2_4@@QEAAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetStringVar(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string value);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getStringVar@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getStringVar@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetStringVar(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getStringVarNameByIndex@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getStringVarNameByIndex@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetStringVarNameByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getStringVarByIndex@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getStringVarByIndex@Context@OpenColorIO_v2_4@@QEBAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetStringVarByIndex(__IntPtr __instance, int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?clearStringVars@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?clearStringVars@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearStringVars(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?loadEnvironment@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?loadEnvironment@Context@OpenColorIO_v2_4@@QEAAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void LoadEnvironment(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?resolveStringVar@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?resolveStringVar@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ResolveStringVar(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string @string);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?resolveFileLocation@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?resolveFileLocation@Context@OpenColorIO_v2_4@@QEBAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ResolveFileLocation(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string filename);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCacheID@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCacheID@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCacheID(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSearchPath@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSearchPath@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSearchPath(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSearchPath@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSearchPath@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSearchPath(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string path);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumSearchPaths@Context@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumSearchPaths@Context@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumSearchPaths(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getWorkingDir@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getWorkingDir@Context@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetWorkingDir(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setWorkingDir@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setWorkingDir@Context@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetWorkingDir(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string dirname);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumStringVars@Context@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumStringVars@Context@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumStringVars(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getEnvironmentMode@Context@OpenColorIO_v2_4@@QEBA?AW4EnvironmentMode@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getEnvironmentMode@Context@OpenColorIO_v2_4@@QEBA?AW4EnvironmentMode@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode GetEnvironmentMode(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setEnvironmentMode@Context@OpenColorIO_v2_4@@QEAAXW4EnvironmentMode@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setEnvironmentMode@Context@OpenColorIO_v2_4@@QEAAXW4EnvironmentMode@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetEnvironmentMode(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode mode);
             }
 
@@ -9160,7 +9160,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_BuiltinTransformRegistry;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0BuiltinTransformRegistry@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0BuiltinTransformRegistry@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -9403,10 +9403,10 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_BuiltinConfigRegistry;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0BuiltinConfigRegistry@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0BuiltinConfigRegistry@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?Get@BuiltinConfigRegistry@OpenColorIO_v2_4@@SAAEBV12@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?Get@BuiltinConfigRegistry@OpenColorIO_v2_4@@SAAEBV12@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr Get();
             }
 
@@ -9749,7 +9749,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_SystemMonitors;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0SystemMonitors@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0SystemMonitors@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -10020,10 +10020,10 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_ConfigIOProxy;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ConfigIOProxy@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ConfigIOProxy@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ConfigIOProxy@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ConfigIOProxy@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
             }
 
@@ -11175,47 +11175,47 @@ namespace OpenColorIO
         {
             public partial struct __Internal
             {
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ClearAllCaches@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ClearAllCaches@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ClearAllCaches();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetVersion@OpenColorIO_v2_4@@YAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetVersion@OpenColorIO_v2_4@@YAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetVersion();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetVersionHex@OpenColorIO_v2_4@@YAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetVersionHex@OpenColorIO_v2_4@@YAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetVersionHex();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetLoggingLevel@OpenColorIO_v2_4@@YA?AW4LoggingLevel@1@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetLoggingLevel@OpenColorIO_v2_4@@YA?AW4LoggingLevel@1@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.LoggingLevel GetLoggingLevel();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?SetLoggingLevel@OpenColorIO_v2_4@@YAXW4LoggingLevel@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?SetLoggingLevel@OpenColorIO_v2_4@@YAXW4LoggingLevel@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetLoggingLevel(global::OpenColorIO.OpenColorIO_v2_4.LoggingLevel level);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ResetToDefaultLoggingFunction@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ResetToDefaultLoggingFunction@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ResetToDefaultLoggingFunction();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?LogMessage@OpenColorIO_v2_4@@YAXW4LoggingLevel@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?LogMessage@OpenColorIO_v2_4@@YAXW4LoggingLevel@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void LogMessage(global::OpenColorIO.OpenColorIO_v2_4.LoggingLevel level, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string message);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ResetComputeHashFunction@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ResetComputeHashFunction@OpenColorIO_v2_4@@YAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ResetComputeHashFunction();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetEnvVariable@OpenColorIO_v2_4@@YAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetEnvVariable@OpenColorIO_v2_4@@YAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetEnvVariable([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?SetEnvVariable@OpenColorIO_v2_4@@YAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?SetEnvVariable@OpenColorIO_v2_4@@YAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetEnvVariable([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string value);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?UnsetEnvVariable@OpenColorIO_v2_4@@YAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?UnsetEnvVariable@OpenColorIO_v2_4@@YAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void UnsetEnvVariable([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?IsEnvVariablePresent@OpenColorIO_v2_4@@YA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?IsEnvVariablePresent@OpenColorIO_v2_4@@YA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsEnvVariablePresent([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ResolveConfigPath@OpenColorIO_v2_4@@YAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ResolveConfigPath@OpenColorIO_v2_4@@YAPEBDPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ResolveConfigPath([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string originalPath);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ExtractOCIOZArchive@OpenColorIO_v2_4@@YAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ExtractOCIOZArchive@OpenColorIO_v2_4@@YAXPEBD0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void ExtractOCIOZArchive([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string archivePath, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string destinationDir);
             }
 
@@ -11823,102 +11823,102 @@ namespace OpenColorIO
         {
             public partial struct __Internal
             {
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BoolToString@OpenColorIO_v2_4@@YAPEBD_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BoolToString@OpenColorIO_v2_4@@YAPEBD_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr BoolToString(bool val);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BoolFromString@OpenColorIO_v2_4@@YA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BoolFromString@OpenColorIO_v2_4@@YA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool BoolFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?LoggingLevelToString@OpenColorIO_v2_4@@YAPEBDW4LoggingLevel@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?LoggingLevelToString@OpenColorIO_v2_4@@YAPEBDW4LoggingLevel@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr LoggingLevelToString(global::OpenColorIO.OpenColorIO_v2_4.LoggingLevel level);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?LoggingLevelFromString@OpenColorIO_v2_4@@YA?AW4LoggingLevel@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?LoggingLevelFromString@OpenColorIO_v2_4@@YA?AW4LoggingLevel@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.LoggingLevel LoggingLevelFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?TransformDirectionToString@OpenColorIO_v2_4@@YAPEBDW4TransformDirection@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?TransformDirectionToString@OpenColorIO_v2_4@@YAPEBDW4TransformDirection@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr TransformDirectionToString(global::OpenColorIO.OpenColorIO_v2_4.TransformDirection dir);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?TransformDirectionFromString@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?TransformDirectionFromString@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.TransformDirection TransformDirectionFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetInverseTransformDirection@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@W421@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetInverseTransformDirection@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@W421@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.TransformDirection GetInverseTransformDirection(global::OpenColorIO.OpenColorIO_v2_4.TransformDirection dir);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?CombineTransformDirections@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@W421@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?CombineTransformDirections@OpenColorIO_v2_4@@YA?AW4TransformDirection@1@W421@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.TransformDirection CombineTransformDirections(global::OpenColorIO.OpenColorIO_v2_4.TransformDirection d1, global::OpenColorIO.OpenColorIO_v2_4.TransformDirection d2);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BitDepthToString@OpenColorIO_v2_4@@YAPEBDW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BitDepthToString@OpenColorIO_v2_4@@YAPEBDW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr BitDepthToString(global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BitDepthFromString@OpenColorIO_v2_4@@YA?AW4BitDepth@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BitDepthFromString@OpenColorIO_v2_4@@YA?AW4BitDepth@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.BitDepth BitDepthFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BitDepthIsFloat@OpenColorIO_v2_4@@YA_NW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BitDepthIsFloat@OpenColorIO_v2_4@@YA_NW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool BitDepthIsFloat(global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?BitDepthToInt@OpenColorIO_v2_4@@YAHW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?BitDepthToInt@OpenColorIO_v2_4@@YAHW4BitDepth@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int BitDepthToInt(global::OpenColorIO.OpenColorIO_v2_4.BitDepth bitDepth);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?AllocationToString@OpenColorIO_v2_4@@YAPEBDW4Allocation@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?AllocationToString@OpenColorIO_v2_4@@YAPEBDW4Allocation@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr AllocationToString(global::OpenColorIO.OpenColorIO_v2_4.Allocation allocation);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?AllocationFromString@OpenColorIO_v2_4@@YA?AW4Allocation@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?AllocationFromString@OpenColorIO_v2_4@@YA?AW4Allocation@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.Allocation AllocationFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?InterpolationToString@OpenColorIO_v2_4@@YAPEBDW4Interpolation@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?InterpolationToString@OpenColorIO_v2_4@@YAPEBDW4Interpolation@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr InterpolationToString(global::OpenColorIO.OpenColorIO_v2_4.Interpolation interp);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?InterpolationFromString@OpenColorIO_v2_4@@YA?AW4Interpolation@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?InterpolationFromString@OpenColorIO_v2_4@@YA?AW4Interpolation@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.Interpolation InterpolationFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GpuLanguageToString@OpenColorIO_v2_4@@YAPEBDW4GpuLanguage@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GpuLanguageToString@OpenColorIO_v2_4@@YAPEBDW4GpuLanguage@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GpuLanguageToString(global::OpenColorIO.OpenColorIO_v2_4.GpuLanguage language);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GpuLanguageFromString@OpenColorIO_v2_4@@YA?AW4GpuLanguage@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GpuLanguageFromString@OpenColorIO_v2_4@@YA?AW4GpuLanguage@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.GpuLanguage GpuLanguageFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?EnvironmentModeToString@OpenColorIO_v2_4@@YAPEBDW4EnvironmentMode@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?EnvironmentModeToString@OpenColorIO_v2_4@@YAPEBDW4EnvironmentMode@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr EnvironmentModeToString(global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode mode);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?EnvironmentModeFromString@OpenColorIO_v2_4@@YA?AW4EnvironmentMode@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?EnvironmentModeFromString@OpenColorIO_v2_4@@YA?AW4EnvironmentMode@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.EnvironmentMode EnvironmentModeFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?CDLStyleToString@OpenColorIO_v2_4@@YAPEBDW4CDLStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?CDLStyleToString@OpenColorIO_v2_4@@YAPEBDW4CDLStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr CDLStyleToString(global::OpenColorIO.OpenColorIO_v2_4.CDLStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?CDLStyleFromString@OpenColorIO_v2_4@@YA?AW4CDLStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?CDLStyleFromString@OpenColorIO_v2_4@@YA?AW4CDLStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.CDLStyle CDLStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?RangeStyleToString@OpenColorIO_v2_4@@YAPEBDW4RangeStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?RangeStyleToString@OpenColorIO_v2_4@@YAPEBDW4RangeStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr RangeStyleToString(global::OpenColorIO.OpenColorIO_v2_4.RangeStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?RangeStyleFromString@OpenColorIO_v2_4@@YA?AW4RangeStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?RangeStyleFromString@OpenColorIO_v2_4@@YA?AW4RangeStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.RangeStyle RangeStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?FixedFunctionStyleToString@OpenColorIO_v2_4@@YAPEBDW4FixedFunctionStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?FixedFunctionStyleToString@OpenColorIO_v2_4@@YAPEBDW4FixedFunctionStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr FixedFunctionStyleToString(global::OpenColorIO.OpenColorIO_v2_4.FixedFunctionStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?FixedFunctionStyleFromString@OpenColorIO_v2_4@@YA?AW4FixedFunctionStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?FixedFunctionStyleFromString@OpenColorIO_v2_4@@YA?AW4FixedFunctionStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.FixedFunctionStyle FixedFunctionStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GradingStyleToString@OpenColorIO_v2_4@@YAPEBDW4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GradingStyleToString@OpenColorIO_v2_4@@YAPEBDW4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GradingStyleToString(global::OpenColorIO.OpenColorIO_v2_4.GradingStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GradingStyleFromString@OpenColorIO_v2_4@@YA?AW4GradingStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GradingStyleFromString@OpenColorIO_v2_4@@YA?AW4GradingStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.GradingStyle GradingStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string s);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ExposureContrastStyleToString@OpenColorIO_v2_4@@YAPEBDW4ExposureContrastStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ExposureContrastStyleToString@OpenColorIO_v2_4@@YAPEBDW4ExposureContrastStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ExposureContrastStyleToString(global::OpenColorIO.OpenColorIO_v2_4.ExposureContrastStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?ExposureContrastStyleFromString@OpenColorIO_v2_4@@YA?AW4ExposureContrastStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?ExposureContrastStyleFromString@OpenColorIO_v2_4@@YA?AW4ExposureContrastStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.ExposureContrastStyle ExposureContrastStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?NegativeStyleToString@OpenColorIO_v2_4@@YAPEBDW4NegativeStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?NegativeStyleToString@OpenColorIO_v2_4@@YAPEBDW4NegativeStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr NegativeStyleToString(global::OpenColorIO.OpenColorIO_v2_4.NegativeStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?NegativeStyleFromString@OpenColorIO_v2_4@@YA?AW4NegativeStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?NegativeStyleFromString@OpenColorIO_v2_4@@YA?AW4NegativeStyle@1@PEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.NegativeStyle NegativeStyleFromString([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string style);
             }
 
@@ -12120,13 +12120,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12143,13 +12143,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_ACTIVE_DISPLAYS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_ACTIVE_DISPLAYS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_ACTIVE_DISPLAYS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_ACTIVE_DISPLAYS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12166,13 +12166,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_ACTIVE_VIEWS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_ACTIVE_VIEWS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_ACTIVE_VIEWS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_ACTIVE_VIEWS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12189,13 +12189,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_INACTIVE_COLORSPACES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_INACTIVE_COLORSPACES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_INACTIVE_COLORSPACES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_INACTIVE_COLORSPACES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12214,13 +12214,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_OPTIMIZATION_FLAGS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_OPTIMIZATION_FLAGS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_OPTIMIZATION_FLAGS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_OPTIMIZATION_FLAGS_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12242,13 +12242,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_USER_CATEGORIES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_USER_CATEGORIES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_USER_CATEGORIES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_USER_CATEGORIES_ENVVAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12262,13 +12262,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_DEFAULT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_DEFAULT_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_DEFAULT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_DEFAULT_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12282,13 +12282,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_REFERENCE_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_REFERENCE_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_REFERENCE_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_REFERENCE_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12302,13 +12302,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_DATA_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_DATA_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_DATA_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_DATA_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12322,13 +12322,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COLOR_PICKING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COLOR_PICKING_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COLOR_PICKING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COLOR_PICKING_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12342,13 +12342,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_SCENE_LINEAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_SCENE_LINEAR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_SCENE_LINEAR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_SCENE_LINEAR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12362,13 +12362,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COMPOSITING_LOG_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COMPOSITING_LOG_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COMPOSITING_LOG_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COMPOSITING_LOG_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12382,13 +12382,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COLOR_TIMING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COLOR_TIMING_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_COLOR_TIMING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_COLOR_TIMING_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12405,13 +12405,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_TEXTURE_PAINT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_TEXTURE_PAINT_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_TEXTURE_PAINT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_TEXTURE_PAINT_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12429,13 +12429,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_MATTE_PAINT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_MATTE_PAINT_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_MATTE_PAINT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_MATTE_PAINT_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12453,13 +12453,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_RENDERING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_RENDERING_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_RENDERING_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_RENDERING_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12477,13 +12477,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_INTERCHANGE_SCENE_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_INTERCHANGE_SCENE_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_INTERCHANGE_SCENE_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_INTERCHANGE_SCENE_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12501,13 +12501,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_INTERCHANGE_DISPLAY_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_INTERCHANGE_DISPLAY_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._ROLE_INTERCHANGE_DISPLAY_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._ROLE_INTERCHANGE_DISPLAY_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12524,13 +12524,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_VIEW_USE_DISPLAY_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_VIEW_USE_DISPLAY_NAME_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_VIEW_USE_DISPLAY_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_VIEW_USE_DISPLAY_NAME_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12547,13 +12547,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_DESCRIPTION_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_DESCRIPTION_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_DESCRIPTION_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_DESCRIPTION_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12570,13 +12570,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_INFO_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_INFO_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_INFO_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_INFO_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12593,13 +12593,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_INPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_INPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_INPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_INPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12616,13 +12616,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_OUTPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_OUTPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_OUTPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_OUTPUT_DESCRIPTOR_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12640,13 +12640,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_NAME_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_NAME_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12664,13 +12664,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_ID_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_ID_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._METADATA_ID_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._METADATA_ID_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12684,13 +12684,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_ALL_CACHES_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_ALL_CACHES_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_ALL_CACHES_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_ALL_CACHES_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12704,13 +12704,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_PROCESSOR_CACHES_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_PROCESSOR_CACHES_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_PROCESSOR_CACHES_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_PROCESSOR_CACHES_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12724,13 +12724,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_CACHE_FALLBACK_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_CACHE_FALLBACK_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_DISABLE_CACHE_FALLBACK_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_DISABLE_CACHE_FALLBACK_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12743,13 +12743,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_DEFAULT_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_DEFAULT_NAME_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_DEFAULT_NAME_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_DEFAULT_NAME_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12762,13 +12762,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_DEFAULT_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_DEFAULT_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_DEFAULT_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_DEFAULT_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12781,13 +12781,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_ARCHIVE_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_ARCHIVE_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_CONFIG_ARCHIVE_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_CONFIG_ARCHIVE_FILE_EXT_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12800,13 +12800,13 @@ namespace OpenColorIO
             {
                 get
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_BUILTIN_URI_PREFIX_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_BUILTIN_URI_PREFIX_OpenColorIO_v2_4__3PEBDEB;
                     return CppSharp.Runtime.MarshalUtil.GetString(global::System.Text.Encoding.UTF8, *(__IntPtr*)(__ptr));
                 }
 
                 set
                 {
-                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO._OCIO_BUILTIN_URI_PREFIX_OpenColorIO_v2_4__3PEBDEB;
+                    var __ptr = (__IntPtr*)global::OpenColorIO.__Symbols.OpenColorIO_2_4._OCIO_BUILTIN_URI_PREFIX_OpenColorIO_v2_4__3PEBDEB;
                     var __bytes0 = global::System.Text.Encoding.UTF8.GetBytes(value);
                     var __bytePtr0 = Marshal.AllocHGlobal(__bytes0.Length + 1);
                     Marshal.Copy(__bytes0, 0, __bytePtr0, __bytes0.Length);
@@ -12842,7 +12842,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_FormatMetadata;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0FormatMetadata@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0FormatMetadata@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -13343,7 +13343,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0Transform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0Transform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -13597,19 +13597,19 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_Transform;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getVars@AllocationTransform@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getVars@AllocationTransform@OpenColorIO_v2_4@@QEBAXPEAM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void GetVars(__IntPtr __instance, float* vars);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setVars@AllocationTransform@OpenColorIO_v2_4@@QEAAXHPEBM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setVars@AllocationTransform@OpenColorIO_v2_4@@QEAAXHPEBM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetVars(__IntPtr __instance, int numvars, float* vars);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getAllocation@AllocationTransform@OpenColorIO_v2_4@@QEBA?AW4Allocation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getAllocation@AllocationTransform@OpenColorIO_v2_4@@QEBA?AW4Allocation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.Allocation GetAllocation(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setAllocation@AllocationTransform@OpenColorIO_v2_4@@QEAAXW4Allocation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setAllocation@AllocationTransform@OpenColorIO_v2_4@@QEAAXW4Allocation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetAllocation(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.Allocation allocation);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getNumVars@AllocationTransform@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getNumVars@AllocationTransform@OpenColorIO_v2_4@@QEBAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumVars(__IntPtr __instance);
             }
 
@@ -13903,7 +13903,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0BuiltinTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0BuiltinTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -14190,7 +14190,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0CDLTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0CDLTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -14711,23 +14711,23 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_Transform;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSrc@ColorSpaceTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSrc@ColorSpaceTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSrc(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSrc@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSrc@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSrc(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string src);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDst@ColorSpaceTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDst@ColorSpaceTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDst(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDst@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDst@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDst(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string dst);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDataBypass@ColorSpaceTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDataBypass@ColorSpaceTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool GetDataBypass(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDataBypass@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDataBypass@ColorSpaceTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDataBypass(__IntPtr __instance, bool enabled);
             }
 
@@ -15018,36 +15018,36 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_Transform;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSrc@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSrc@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSrc(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSrc@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSrc@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSrc(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string name);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDisplay@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDisplay@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDisplay(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDisplay@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDisplay@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDisplay(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string display);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getView@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getView@DisplayViewTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetView(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setView@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setView@DisplayViewTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetView(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string view);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLooksBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLooksBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool GetLooksBypass(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setLooksBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setLooksBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetLooksBypass(__IntPtr __instance, bool bypass);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDataBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDataBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool GetDataBypass(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDataBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDataBypass@DisplayViewTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDataBypass(__IntPtr __instance, bool bypass);
             }
 
@@ -15372,23 +15372,23 @@ namespace OpenColorIO
                 internal double m_blue;
                 internal double m_master;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@NNNN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@NNNN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, double red, double green, double blue, double master);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@AEAY03$$CBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@AEAY03$$CBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, double[] rgbm);
 
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBM@OpenColorIO_v2_4@@QEAA@AEBU01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor_1(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingRGBM@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingRGBM@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingRGBM@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingRGBM@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -15625,27 +15625,27 @@ namespace OpenColorIO
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingPrimary@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingPrimary@OpenColorIO_v2_4@@QEAA@W4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingPrimary@OpenColorIO_v2_4@@QEAA@W4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.GradingStyle style);
 
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingPrimary@OpenColorIO_v2_4@@QEAA@AEBU01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?validate@GradingPrimary@OpenColorIO_v2_4@@QEBAXW4GradingStyle@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?validate@GradingPrimary@OpenColorIO_v2_4@@QEBAXW4GradingStyle@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Validate(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.GradingStyle style);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingPrimary@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingPrimary@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingPrimary@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingPrimary@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?NoClampBlack@GradingPrimary@OpenColorIO_v2_4@@SANXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?NoClampBlack@GradingPrimary@OpenColorIO_v2_4@@SANXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern double NoClampBlack();
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?NoClampWhite@GradingPrimary@OpenColorIO_v2_4@@SANXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?NoClampWhite@GradingPrimary@OpenColorIO_v2_4@@SANXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern double NoClampWhite();
             }
 
@@ -16012,20 +16012,20 @@ namespace OpenColorIO
                 internal float m_x;
                 internal float m_y;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingControlPoint@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingControlPoint@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingControlPoint@OpenColorIO_v2_4@@QEAA@MM@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingControlPoint@OpenColorIO_v2_4@@QEAA@MM@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, float x, float y);
 
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingControlPoint@OpenColorIO_v2_4@@QEAA@AEBU01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingControlPoint@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingControlPoint@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingControlPoint@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingControlPoint@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -16206,14 +16206,14 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_GradingBSplineCurve;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingBSplineCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingBSplineCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBVGradingBSplineCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBVGradingBSplineCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBVGradingBSplineCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBVGradingBSplineCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -16544,17 +16544,17 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_GradingRGBCurve;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBCurve@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBCurve@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBVGradingRGBCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBVGradingRGBCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBVGradingRGBCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBVGradingRGBCurve@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -16827,26 +16827,26 @@ namespace OpenColorIO
                 internal double m_start;
                 internal double m_width;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@NNNNNN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@NNNNNN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, double red, double green, double blue, double master, double start, double width);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@AEAY05$$CBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@AEAY05$$CBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, double[] rgbmsw);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@NN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@NN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, double start, double width);
 
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBMSW@OpenColorIO_v2_4@@QEAA@AEBU01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor_1(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingRGBMSW@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingRGBMSW@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingRGBMSW@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingRGBMSW@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -17110,20 +17110,20 @@ namespace OpenColorIO
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingTone@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingTone@OpenColorIO_v2_4@@QEAA@W4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingTone@OpenColorIO_v2_4@@QEAA@W4GradingStyle@1@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.GradingStyle style);
 
                 [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingTone@OpenColorIO_v2_4@@QEAA@AEBU01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?validate@GradingTone@OpenColorIO_v2_4@@QEBAXXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?validate@GradingTone@OpenColorIO_v2_4@@QEBAXXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Validate(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingTone@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??8OpenColorIO_v2_4@@YA_NAEBUGradingTone@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorEqualEqual(__IntPtr lhs, __IntPtr rhs);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingTone@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??9OpenColorIO_v2_4@@YA_NAEBUGradingTone@0@0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool OperatorExclaimEqual(__IntPtr lhs, __IntPtr rhs);
             }
@@ -17384,7 +17384,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_DynamicProperty;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0DynamicProperty@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0DynamicProperty@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -17583,7 +17583,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_DynamicPropertyDouble;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0DynamicPropertyDouble@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0DynamicPropertyDouble@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -17796,7 +17796,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_DynamicPropertyGradingPrimary;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0DynamicPropertyGradingPrimary@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0DynamicPropertyGradingPrimary@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -18012,7 +18012,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_DynamicPropertyGradingRGBCurve;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0DynamicPropertyGradingRGBCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0DynamicPropertyGradingRGBCurve@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -18193,7 +18193,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_DynamicPropertyGradingTone;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0DynamicPropertyGradingTone@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0DynamicPropertyGradingTone@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -18414,7 +18414,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExponentTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ExponentTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -18745,7 +18745,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExponentWithLinearTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ExponentWithLinearTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -19105,7 +19105,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ExposureContrastTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ExposureContrastTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -19734,41 +19734,41 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_Transform;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetFormatNameByIndex@FileTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetFormatNameByIndex@FileTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatNameByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetFormatExtensionByIndex@FileTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetFormatExtensionByIndex@FileTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatExtensionByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?IsFormatExtensionSupported@FileTransform@OpenColorIO_v2_4@@SA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?IsFormatExtensionSupported@FileTransform@OpenColorIO_v2_4@@SA_NPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool IsFormatExtensionSupported([MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string extension);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSrc@FileTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSrc@FileTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSrc(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSrc@FileTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSrc@FileTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSrc(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string src);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCCCId@FileTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCCCId@FileTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetCCCId(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setCCCId@FileTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setCCCId@FileTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetCCCId(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string id);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getCDLStyle@FileTransform@OpenColorIO_v2_4@@QEBA?AW4CDLStyle@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getCDLStyle@FileTransform@OpenColorIO_v2_4@@QEBA?AW4CDLStyle@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.CDLStyle GetCDLStyle(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setCDLStyle@FileTransform@OpenColorIO_v2_4@@QEAAXW4CDLStyle@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setCDLStyle@FileTransform@OpenColorIO_v2_4@@QEAAXW4CDLStyle@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetCDLStyle(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.CDLStyle _0);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getInterpolation@FileTransform@OpenColorIO_v2_4@@QEBA?AW4Interpolation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getInterpolation@FileTransform@OpenColorIO_v2_4@@QEBA?AW4Interpolation@2@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern global::OpenColorIO.OpenColorIO_v2_4.Interpolation GetInterpolation(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setInterpolation@FileTransform@OpenColorIO_v2_4@@QEAAXW4Interpolation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setInterpolation@FileTransform@OpenColorIO_v2_4@@QEAAXW4Interpolation@2@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetInterpolation(__IntPtr __instance, global::OpenColorIO.OpenColorIO_v2_4.Interpolation interp);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetNumFormats@FileTransform@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetNumFormats@FileTransform@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumFormats();
             }
 
@@ -20124,7 +20124,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0FixedFunctionTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0FixedFunctionTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -20470,7 +20470,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingPrimaryTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingPrimaryTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -20853,7 +20853,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingRGBCurveTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingRGBCurveTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -21297,7 +21297,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GradingToneTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GradingToneTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -21669,16 +21669,16 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0GroupTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0GroupTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetFormatNameByIndex@GroupTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetFormatNameByIndex@GroupTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatNameByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetFormatExtensionByIndex@GroupTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetFormatExtensionByIndex@GroupTransform@OpenColorIO_v2_4@@SAPEBDH@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetFormatExtensionByIndex(int index);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?GetNumWriteFormats@GroupTransform@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?GetNumWriteFormats@GroupTransform@OpenColorIO_v2_4@@SAHXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern int GetNumWriteFormats();
             }
 
@@ -21956,7 +21956,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0LogAffineTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0LogAffineTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -22364,7 +22364,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0LogCameraTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0LogCameraTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -22844,7 +22844,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0LogTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0LogTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -23131,29 +23131,29 @@ namespace OpenColorIO
                 internal __IntPtr vfptr_Transform;
                 internal __IntPtr m_impl;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSrc@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSrc@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetSrc(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSrc@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSrc@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSrc(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string src);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getDst@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getDst@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetDst(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setDst@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setDst@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetDst(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string dst);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getLooks@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getLooks@LookTransform@OpenColorIO_v2_4@@QEBAPEBDXZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr GetLooks(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setLooks@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setLooks@LookTransform@OpenColorIO_v2_4@@QEAAXPEBD@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetLooks(__IntPtr __instance, [MarshalAs(UnmanagedType.CustomMarshaler, MarshalTypeRef = typeof(CppSharp.Runtime.UTF8Marshaller))] string looks);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?getSkipColorSpaceConversion@LookTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?getSkipColorSpaceConversion@LookTransform@OpenColorIO_v2_4@@QEBA_NXZ", CallingConvention = __CallingConvention.Cdecl)]
                 [return: MarshalAs(UnmanagedType.I1)]
                 internal static extern bool GetSkipColorSpaceConversion(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?setSkipColorSpaceConversion@LookTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?setSkipColorSpaceConversion@LookTransform@OpenColorIO_v2_4@@QEAAX_N@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void SetSkipColorSpaceConversion(__IntPtr __instance, bool skip);
             }
 
@@ -23458,7 +23458,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0Lut1DTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0Lut1DTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -23948,7 +23948,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0Lut3DTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0Lut3DTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -24340,22 +24340,22 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0MatrixTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0MatrixTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?Fit@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEBN111@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?Fit@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEBN111@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Fit(double* m44, double* offset4, double* oldmin4, double* oldmax4, double* newmin4, double* newmax4);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?Identity@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?Identity@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Identity(double* m44, double* offset4);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?Sat@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0NPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?Sat@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0NPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Sat(double* m44, double* offset4, double sat, double* lumaCoef3);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?Scale@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?Scale@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void Scale(double* m44, double* offset4, double* scale4);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "?View@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEAHPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "?View@MatrixTransform@OpenColorIO_v2_4@@SAXPEAN0PEAHPEBN@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern void View(double* m44, double* offset4, int* channelHot4, double* lumaCoef3);
             }
 
@@ -24882,7 +24882,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_Transform;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0RangeTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0RangeTransform@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -28585,10 +28585,10 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_ColorSpaceMenuParameters;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ColorSpaceMenuParameters@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ColorSpaceMenuParameters@OpenColorIO_v2_4@@QEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ColorSpaceMenuParameters@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ColorSpaceMenuParameters@OpenColorIO_v2_4@@QEAA@AEBV01@@Z", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr cctor(__IntPtr __instance, __IntPtr _0);
             }
 
@@ -29155,7 +29155,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_ColorSpaceMenuHelper;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0ColorSpaceMenuHelper@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0ColorSpaceMenuHelper@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -29577,7 +29577,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_LegacyViewingPipeline;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0LegacyViewingPipeline@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0LegacyViewingPipeline@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -29842,7 +29842,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_MixingSlider;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0MixingSlider@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0MixingSlider@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -30123,7 +30123,7 @@ namespace OpenColorIO
             {
                 internal __IntPtr vfptr_MixingColorSpaceManager;
 
-                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO", EntryPoint = "??0MixingColorSpaceManager@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
+                [SuppressUnmanagedCodeSecurity, DllImport("OpenColorIO_2_4", EntryPoint = "??0MixingColorSpaceManager@OpenColorIO_v2_4@@IEAA@XZ", CallingConvention = __CallingConvention.Cdecl)]
                 internal static extern __IntPtr ctor(__IntPtr __instance);
             }
 
@@ -31322,7 +31322,7 @@ namespace OpenColorIO
 }
 namespace OpenColorIO.__Symbols
 {
-    internal class OpenColorIO
+    internal class OpenColorIO_2_4
     {
         public static IntPtr _DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB { get; }
         public static IntPtr _FilePathSearchRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB { get; }
@@ -31358,9 +31358,9 @@ namespace OpenColorIO.__Symbols
         public static IntPtr _OCIO_CONFIG_DEFAULT_FILE_EXT_OpenColorIO_v2_4__3PEBDEB { get; }
         public static IntPtr _OCIO_CONFIG_ARCHIVE_FILE_EXT_OpenColorIO_v2_4__3PEBDEB { get; }
         public static IntPtr _OCIO_BUILTIN_URI_PREFIX_OpenColorIO_v2_4__3PEBDEB { get; }
-        static OpenColorIO()
+        static OpenColorIO_2_4()
         {
-            var path = "OpenColorIO";
+            var path = "OpenColorIO_2_4";
             var image = CppSharp.SymbolResolver.LoadImage(ref path);
             if (image == IntPtr.Zero) throw new global::System.DllNotFoundException(path);
             _DefaultRuleName_FileRules_OpenColorIO_v2_4__2PEBDEB = CppSharp.SymbolResolver.ResolveSymbol(image, "?DefaultRuleName@FileRules@OpenColorIO_v2_4@@2PEBDEB");
