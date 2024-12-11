@@ -2,15 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+	<OutputType>Exe</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>OCIOSharp.Program</StartupObject>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="YamlDotNet" Version="16.2.1">
-		<IncludeAssets>all</IncludeAssets>
-		<PrivateAssets>none</PrivateAssets>
-    </PackageReference>
+    <Compile Remove="OpenColorIO\build\**" />
+    <EmbeddedResource Remove="OpenColorIO\build\**" />
+    <None Remove="OpenColorIO\build\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CppSharp" Version="1.1.5.3168" />
+    <PackageReference Include="YamlDotNet" Version="16.2.1" />
   </ItemGroup>
 
 </Project>
