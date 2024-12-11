@@ -1,0 +1,4 @@
+[submodule "OpenColorIO"]
+	path = OpenColorIO
+	url = https://github.com/AcademySoftwareFoundation/OpenColorIO.git
+	branch = main
