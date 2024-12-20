@@ -95,6 +95,9 @@
     <Link>
       <AdditionalDependencies>OpenColorIO.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /E "$(ProjectDir)ThirdParty\OCIO\bin\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -122,6 +125,9 @@
     <Link>
       <AdditionalDependencies>OpenColorIO.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /E "$(ProjectDir)ThirdParty\OCIO\bin\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="OCIOConfig.h" />
