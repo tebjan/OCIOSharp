@@ -10,8 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="OcioSharpCLI\**" />
     <Compile Remove="OpenColorIO\build\**" />
+    <EmbeddedResource Remove="OcioSharpCLI\**" />
     <EmbeddedResource Remove="OpenColorIO\build\**" />
+    <None Remove="OcioSharpCLI\**" />
     <None Remove="OpenColorIO\build\**" />
   </ItemGroup>
 

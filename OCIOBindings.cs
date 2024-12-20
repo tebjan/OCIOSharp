@@ -15,19 +15,19 @@ public class OCIOBindings : ILibrary
     public void Setup(Driver driver)
     {
         var options = driver.Options;
-        options.GeneratorKind = GeneratorKind.CSharp;
+        options.GeneratorKind = GeneratorKind.CLI;
         options.GenerateDefaultValuesForArguments = true;
         options.GenerateSequentialLayout = true;
         options.Verbose = true;
         options.UsePropertyDetectionHeuristics = true;
 
-        var outputDir = Path.Combine(repoRoot, "OCIOSharp");
+        var outputDir = Path.Combine(repoRoot, "OCIOSharpCLI");
         options.OutputDir = outputDir;
 
         var module = options.AddModule("OpenColorIO");  
 
         var installDir = Path.Combine(repoRoot, "OpenColorIO", "install");
-        var includeDir = Path.Combine(installDir, "include");
+        var includeDir = Path.Combine(installDir, "include", "OpenColorIO");
 
         // check if the include directory exists    
         if (!Directory.Exists(includeDir))
@@ -37,7 +37,7 @@ public class OCIOBindings : ILibrary
 
         module.IncludeDirs.Add(includeDir);
 
-        var headerFile = Path.Combine(includeDir, "OpenColorIO", "OpenColorIO.h");
+        var headerFile = Path.Combine(includeDir, "OpenColorIO.h");
 
         // check if the header file exists
         if (!File.Exists(headerFile))
@@ -45,7 +45,12 @@ public class OCIOBindings : ILibrary
             throw new FileNotFoundException($"The header file {headerFile} does not exist.");
         }
 
-        module.Headers.Add(headerFile);
+        // include all header files
+        //module.Headers.Add("OpenColorABI.h");
+        //module.Headers.Add("OpenColorAppHelpers.h");
+        module.Headers.Add("OpenColorIO.h");
+        //module.Headers.Add("OpenColorTransforms.h");
+        //module.Headers.Add("OpenColorTypes.h");
 
         var libDir = Path.Combine(installDir, "bin");
         var libFile = Path.Combine(libDir, "OpenColorIO_2_4.dll");

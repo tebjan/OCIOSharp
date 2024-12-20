@@ -75,6 +75,7 @@ namespace OcioSharpCLI {
         TextureType Channel;
         TextureDimensions Dimensions;
         InterpolationType Interpolation;
+		array<float>^ Values;
     };
 
     public value struct Texture3DInfo
@@ -83,6 +84,7 @@ namespace OcioSharpCLI {
         String^ SamplerName;
         unsigned EdgeLength;
         InterpolationType Interpolation;
+		array<float>^ Values;
     };
 
     public ref class OCIOConfig
@@ -214,7 +216,7 @@ namespace OcioSharpCLI {
             }
         }
 
-        array<UniformInfo>^ GetShaderUniforms()
+        array<UniformInfo>^ GetUniforms()
         {
             try
             {
@@ -281,6 +283,38 @@ namespace OcioSharpCLI {
             }
         }
 
+        array<float>^ CopyTextureValues(const float* sourceValues, int totalTexels, int channels)
+        {
+            if (channels == 1)
+            {
+                // Allocate space for single channel data
+                array<float>^ textureValues = gcnew array<float>(totalTexels);
+                for (int i = 0; i < totalTexels; ++i)
+                {
+                    textureValues[i] = sourceValues[i];
+                }
+                return textureValues;
+            }
+            else if (channels == 3)
+            {
+                // Allocate space for RGBA
+                int rgbaElementCount = totalTexels * 4;
+                array<float>^ textureValues = gcnew array<float>(rgbaElementCount);
+
+                for (int i = 0; i < totalTexels; ++i)
+                {
+                    textureValues[i * 4 + 0] = sourceValues[i * 3 + 0]; // R
+                    textureValues[i * 4 + 1] = sourceValues[i * 3 + 1]; // G
+                    textureValues[i * 4 + 2] = sourceValues[i * 3 + 2]; // B
+                    textureValues[i * 4 + 3] = 1.0f; // A default to 1.0
+                }
+
+                return textureValues;
+            }
+
+            throw gcnew Exception("Unsupported channel configuration");
+        }
+
         array<TextureInfo>^ GetTextures()
         {
             try
@@ -308,14 +342,26 @@ namespace OcioSharpCLI {
                     textureInfo.Dimensions = static_cast<TextureDimensions>(dimensions);
                     textureInfo.Interpolation = static_cast<InterpolationType>(interpolation);
 
+                    int channels = (channel == OCIO::GpuShaderCreator::TextureType::TEXTURE_RGB_CHANNEL) ? 3 : 1;
+                    int totalTexels = width * height;
+
+                    const float* values = nullptr;
+                    shaderDesc->get()->getTextureValues(i, values);
+
+                    if (values != nullptr)
+                    {
+                        textureInfo.Values = CopyTextureValues(values, totalTexels, channels);
+                    }
+
                     textures[i] = textureInfo;
                 }
+
                 return textures;
             }
-			catch (OCIO::Exception &e)
-			{
-				throw gcnew Exception(gcnew String(e.what()));
-			}
+            catch (OCIO::Exception& e)
+            {
+                throw gcnew Exception(gcnew String(e.what()));
+            }
         }
 
         array<Texture3DInfo>^ Get3DTextures()
@@ -340,11 +386,22 @@ namespace OcioSharpCLI {
                     textureInfo.EdgeLength = edgelen;
                     textureInfo.Interpolation = static_cast<InterpolationType>(interpolation);
 
+                    int totalTexels = edgelen * edgelen * edgelen;
+
+                    const float* values = nullptr;
+                    shaderDesc->get()->get3DTextureValues(i, values);
+
+                    if (values != nullptr)
+                    {
+                        textureInfo.Values = CopyTextureValues(values, totalTexels, 3);
+                    }
+
                     textures[i] = textureInfo;
                 }
+
                 return textures;
             }
-            catch (OCIO::Exception &e)
+            catch (OCIO::Exception& e)
             {
                 throw gcnew Exception(gcnew String(e.what()));
             }
