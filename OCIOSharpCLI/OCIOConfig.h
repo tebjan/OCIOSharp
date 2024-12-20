@@ -7,7 +7,7 @@ using namespace System;
 using namespace System::Runtime::InteropServices;
 namespace OCIO = OCIO_NAMESPACE;
 
-namespace OcioSharpCLI {
+namespace OCIOSharpCLI {
 
     public value struct Display
     {
