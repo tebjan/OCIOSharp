@@ -161,6 +161,26 @@ namespace OCIOSharpCLI {
             return displays;
         }
 
+        array<String^>^ GetColorSpaces()
+        {
+            if (config == nullptr)
+            {
+                throw gcnew Exception("Configuration is not loaded.");
+            }
+
+            //search ref tpye
+
+			int numColorSpaces = (*config)->getNumColorSpaces(OpenColorIO_v2_4::SEARCH_REFERENCE_SPACE_SCENE, OpenColorIO_v2_4::COLORSPACE_ACTIVE);
+            array<String^>^ spaces = gcnew array<String^>(numColorSpaces);
+
+            for (int i = 0; i < numColorSpaces; ++i)
+            {
+				const char* colorSpaceName = (*config)->getColorSpaceNameByIndex(i);
+                spaces[i] = gcnew String(colorSpaceName);
+            }
+            return spaces;
+        }
+
         void CreateProcessor(String^ inputColorSpace, String^ display, String^ view)
         {
             if (config == nullptr)
