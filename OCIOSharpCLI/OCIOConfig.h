@@ -5,6 +5,7 @@
 
 using namespace System;
 using namespace System::Runtime::InteropServices;
+
 namespace OCIO = OCIO_NAMESPACE;
 
 namespace OCIOSharpCLI {
@@ -170,7 +171,7 @@ namespace OCIOSharpCLI {
 
             //search ref tpye
 
-			int numColorSpaces = (*config)->getNumColorSpaces(OpenColorIO_v2_4::SEARCH_REFERENCE_SPACE_SCENE, OpenColorIO_v2_4::COLORSPACE_ACTIVE);
+			int numColorSpaces = (*config)->getNumColorSpaces(OpenColorIO_v2_4::SEARCH_REFERENCE_SPACE_ALL, OpenColorIO_v2_4::COLORSPACE_ACTIVE);
             array<String^>^ spaces = gcnew array<String^>(numColorSpaces);
 
             for (int i = 0; i < numColorSpaces; ++i)
@@ -181,12 +182,46 @@ namespace OCIOSharpCLI {
             return spaces;
         }
 
-        void CreateProcessor(String^ inputColorSpace, String^ display, String^ view)
+        array<String^>^ GetRoles()
         {
             if (config == nullptr)
-            {
                 throw gcnew Exception("Configuration is not loaded.");
+
+            int numRoles = (*config)->getNumRoles();
+            array<String^>^ roles = gcnew array<String^>(numRoles);
+
+            for (int i = 0; i < numRoles; ++i)
+            {
+                roles[i] = gcnew String((*config)->getRoleName(i));
             }
+
+            return roles;
+        }
+
+        String^ GetRoleColorSpace(String^ role)
+        {
+            if (config == nullptr)
+                throw gcnew Exception("Configuration is not loaded.");
+
+            auto rolePtr = Marshal::StringToHGlobalAnsi(role);
+            try
+            {
+                const char* cs = (*config)->getRoleColorSpace(static_cast<const char*>(rolePtr.ToPointer()));
+                if (!cs || !*cs)
+                    return nullptr;
+
+                return gcnew String(cs);
+            }
+            finally
+            {
+                Marshal::FreeHGlobal(rolePtr);
+            }
+        }
+
+        void CreateProcessor(String^ inputColorSpace, String^ display, String^ view, bool inverse)
+        {
+            if (config == nullptr)
+                throw gcnew Exception("Configuration is not loaded.");
 
             auto inputColorSpacePtr = Marshal::StringToHGlobalAnsi(inputColorSpace);
             auto displayPtr = Marshal::StringToHGlobalAnsi(display);
@@ -194,12 +229,14 @@ namespace OCIOSharpCLI {
 
             try
             {
+                const auto dir = inverse ? OCIO::TRANSFORM_DIR_INVERSE : OCIO::TRANSFORM_DIR_FORWARD;
+
                 processor = new OCIO::ConstProcessorRcPtr(
                     (*config)->getProcessor(
                         static_cast<const char*>(inputColorSpacePtr.ToPointer()),
                         static_cast<const char*>(displayPtr.ToPointer()),
                         static_cast<const char*>(viewPtr.ToPointer()),
-                        OCIO::TRANSFORM_DIR_FORWARD));
+                        dir));
 
                 gpuProcessor = new OCIO::ConstGPUProcessorRcPtr(processor->get()->getDefaultGPUProcessor());
                 shaderDesc = new OCIO::GpuShaderDescRcPtr(OCIO::GpuShaderDesc::CreateShaderDesc());
@@ -213,6 +250,44 @@ namespace OCIOSharpCLI {
                 Marshal::FreeHGlobal(inputColorSpacePtr);
                 Marshal::FreeHGlobal(displayPtr);
                 Marshal::FreeHGlobal(viewPtr);
+            }
+        }
+
+        // ColorSpace->ColorSpace has no direction overload in OCIO.
+        // Inverse is implemented by swapping src/dst.
+        void CreateProcessor(String^ inputColorSpace, String^ outputColorSpace, bool inverse)
+        {
+            if (config == nullptr)
+                throw gcnew Exception("Configuration is not loaded.");
+
+            auto inputPtr = Marshal::StringToHGlobalAnsi(inputColorSpace);
+            auto outputPtr = Marshal::StringToHGlobalAnsi(outputColorSpace);
+
+            try
+            {
+                const char* src = static_cast<const char*>(inputPtr.ToPointer());
+                const char* dst = static_cast<const char*>(outputPtr.ToPointer());
+
+                if (inverse)
+                {
+                    // swap
+                    auto tmp = src;
+                    src = dst;
+                    dst = tmp;
+                }
+
+                processor = new OCIO::ConstProcessorRcPtr((*config)->getProcessor(src, dst));
+                gpuProcessor = new OCIO::ConstGPUProcessorRcPtr(processor->get()->getDefaultGPUProcessor());
+                shaderDesc = new OCIO::GpuShaderDescRcPtr(OCIO::GpuShaderDesc::CreateShaderDesc());
+            }
+            catch (OCIO::Exception& e)
+            {
+                throw gcnew Exception(gcnew String(e.what()));
+            }
+            finally
+            {
+                Marshal::FreeHGlobal(inputPtr);
+                Marshal::FreeHGlobal(outputPtr);
             }
         }
 
