@@ -9,11 +9,12 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET OpenColorIO::OpenColorIO APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(OpenColorIO::OpenColorIO PROPERTIES
   IMPORTED_IMPLIB_RELEASE "${_IMPORT_PREFIX}/lib/OpenColorIO.lib"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/OpenColorIO_2_4.dll"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "expat::expat;yaml-cpp::yaml-cpp"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/bin/OpenColorIO_2_5.dll"
   )
 
 list(APPEND _cmake_import_check_targets OpenColorIO::OpenColorIO )
-list(APPEND _cmake_import_check_files_for_OpenColorIO::OpenColorIO "${_IMPORT_PREFIX}/lib/OpenColorIO.lib" "${_IMPORT_PREFIX}/bin/OpenColorIO_2_4.dll" )
+list(APPEND _cmake_import_check_files_for_OpenColorIO::OpenColorIO "${_IMPORT_PREFIX}/lib/OpenColorIO.lib" "${_IMPORT_PREFIX}/bin/OpenColorIO_2_5.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

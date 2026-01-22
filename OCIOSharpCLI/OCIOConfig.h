@@ -2,6 +2,7 @@
 #pragma once
 
 #include <OpenColorIO/OpenColorIO.h>
+#include <OpenColorIO/OpenColorAppHelpers.h>
 
 using namespace System;
 using namespace System::Runtime::InteropServices;
@@ -133,6 +134,83 @@ namespace OCIOSharpCLI {
             }
         }
 
+        /// <summary>
+        /// Load a built-in OCIO config by name.
+        /// Examples: "ocio://studio-config-latest", "ocio://cg-config-latest",
+        /// "ocio://studio-config-v4.0.0_aces-v2.0_ocio-v2.5"
+        /// </summary>
+        void LoadBuiltinConfig(String^ configName)
+        {
+            auto configNamePtr = Marshal::StringToHGlobalAnsi(configName);
+            try
+            {
+                config = new OCIO::ConstConfigRcPtr(
+                    OCIO::Config::CreateFromBuiltinConfig(static_cast<const char*>(configNamePtr.ToPointer())));
+            }
+            catch (OCIO::Exception& e)
+            {
+                throw gcnew Exception(gcnew String(e.what()));
+            }
+            finally
+            {
+                Marshal::FreeHGlobal(configNamePtr);
+            }
+        }
+
+        /// <summary>
+        /// Get list of available built-in config names.
+        /// </summary>
+        static array<String^>^ GetBuiltinConfigNames()
+        {
+            try
+            {
+                const auto& registry = OCIO::BuiltinConfigRegistry::Get();
+                size_t numConfigs = registry.getNumBuiltinConfigs();
+                array<String^>^ names = gcnew array<String^>((int)numConfigs);
+
+                for (size_t i = 0; i < numConfigs; ++i)
+                {
+                    names[(int)i] = gcnew String(registry.getBuiltinConfigName(i));
+                }
+                return names;
+            }
+            catch (OCIO::Exception& e)
+            {
+                throw gcnew Exception(gcnew String(e.what()));
+            }
+        }
+
+        /// <summary>
+        /// Merge another config into this config.
+        /// New colorspaces from inputConfig are added to this config.
+        /// </summary>
+        void MergeConfig(OCIOConfig^ inputConfig)
+        {
+            if (config == nullptr || inputConfig->config == nullptr)
+                throw gcnew Exception("Both configs must be loaded before merging.");
+
+            try
+            {
+                auto params = OCIO::ConfigMergingParameters::Create();
+                // Use PREFER_INPUT strategy - new colorspaces from input take priority
+                params->setDefaultStrategy(OCIO::ConfigMergingParameters::STRATEGY_PREFER_INPUT);
+
+                auto mergedConfig = OCIO::ConfigMergingHelpers::MergeConfigs(
+                    params,
+                    *config,                    // base config
+                    *(inputConfig->config)      // input config to merge
+                );
+
+                // Replace current config with merged result
+                delete config;
+                config = new OCIO::ConstConfigRcPtr(mergedConfig);
+            }
+            catch (OCIO::Exception& e)
+            {
+                throw gcnew Exception(gcnew String(e.what()));
+            }
+        }
+
         array<Display>^ GetDisplays()
         {
             if (config == nullptr)
@@ -171,7 +249,7 @@ namespace OCIOSharpCLI {
 
             //search ref tpye
 
-			int numColorSpaces = (*config)->getNumColorSpaces(OpenColorIO_v2_4::SEARCH_REFERENCE_SPACE_ALL, OpenColorIO_v2_4::COLORSPACE_ACTIVE);
+			int numColorSpaces = (*config)->getNumColorSpaces(OpenColorIO_v2_5::SEARCH_REFERENCE_SPACE_ALL, OpenColorIO_v2_5::COLORSPACE_ACTIVE);
             array<String^>^ spaces = gcnew array<String^>(numColorSpaces);
 
             for (int i = 0; i < numColorSpaces; ++i)

@@ -30,19 +30,19 @@ if (NOT ON) # NOT ON
     ########################
 
     if (NOT TARGET expat::expat)
-        find_dependency(expat 2.5.0)
+        find_dependency(expat 2.7.1)
     endif()
 
     if (NOT TARGET Imath::Imath)
-        find_dependency(Imath 3.1.6)
+        find_dependency(Imath 3.2.1)
     endif()
 
     if (NOT TARGET pystring::pystring)
-        find_dependency(pystring 1.1.3)
+        find_dependency(pystring 1.1.4)
     endif()
 
     if (NOT TARGET yaml-cpp::yaml-cpp)
-        find_dependency(yaml-cpp 0.7.0)
+        find_dependency(yaml-cpp 0.8.0)
         if (TARGET yaml-cpp AND NOT TARGET yaml-cpp::yaml-cpp)
             add_library(yaml-cpp::yaml-cpp ALIAS yaml-cpp)
         endif()
@@ -53,15 +53,15 @@ if (NOT ON) # NOT ON
         # ZLIB_VERSION_STRING is still available for backward compatibility.
         # See https://cmake.org/cmake/help/git-stage/module/FindZLIB.html
 
-        if (1.2.13) # 1.2.13
-            find_dependency(ZLIB 1.2.13)
+        if (1.3.1) # 1.3.1
+            find_dependency(ZLIB 1.3.1)
         else()
             find_dependency(ZLIB )
         endif()
     endif()
 
     if (NOT TARGET MINIZIP::minizip-ng)
-        find_dependency(minizip-ng 3.0.7)
+        find_dependency(minizip-ng 4.0.10)
     endif()
 
     # Remove OCIO custom find module path.
