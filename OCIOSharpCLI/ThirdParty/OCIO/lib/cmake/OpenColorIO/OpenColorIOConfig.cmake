@@ -30,7 +30,7 @@ if (NOT ON) # NOT ON
     ########################
 
     if (NOT TARGET expat::expat)
-        find_dependency(expat 2.7.1)
+        find_dependency(expat 2.7.2)
     endif()
 
     if (NOT TARGET Imath::Imath)
